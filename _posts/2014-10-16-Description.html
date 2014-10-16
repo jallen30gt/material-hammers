@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Project Description: Literature Review"
+tagline: >
+  External projects that support reusable codes, data, and knowledge.
+
+author:
+  tonyfast
+
+ref:
+- https://gist.github.com
+---
+{% assign services = site.data['services']['data'] %}
+
+
+<style>
+.link  :{
+}
+</style>
+
+<h2>"Literature" Review of Materials Informatics Software</h2>
+
+{% capture block %}
+Future materials informatics must learn from _and_ be informed by the
+successes and failures of the past.  Below is a list of services in disparate materials applications to
+organize digital assets including codes, data, and knowledge.
+
+**The Class Project** will require each student to choose a web-based materials science
+tool from the [list](#tools) below.  Then you will:
+
+* Explore websites to learn more about the service's intent
+* Search for Literature References to the tool
+* Discover external opinions
+
+Please create a [gist]({{page.ref[0]}}) and keep track of your learning.
+There is an example post that has been started for [DREAM.3D]({% post_url 2014-10-16-Dream3D %}).
+
+### Report Format
+
+1. Choose a Service that has not been selected below.
+  * Selected posts will have a gist SHA to the right of the post.
+  * More than one person can report on a service once all of the slots have been selected.
+  * Pick a tool relevent to your field.  Some of these tools are strictly for electronic
+  or structural materials.
+1. In the disqus comment box, please tell me which tool you would like to choose
+  and the hash for the gist you will be updating.
+
+
+    An example comment to reserve ``DREAM.3D`` includes a ``SHA`` to the gist report:
+
+    ```
+    DREAM.3D 02f6ee2e621cb3ed43f9
+    ```
+
+    _the gist sha uniquely identifies it, the username is not needed._
+
+1. _I_'ll make a post for your gist.
+1. _You_ will update your gist and tell us about what other awesome tools we can use.
+
+{% endcapture %}
+{{block | markdownify }}
+
+
+
+<h2 id="#tools">Materials Science Services</h2>
+{% for item in services %}
+<div class="row">
+<div class="panel listitem panel-default" >
+  <div class="panel-body">
+  <div class="col-sm-8 col-md-8 col-lg-8">
+    <h4>{{forloop.index | minus:1}}. &nbsp;&nbsp;<a href="{{item['url']}}">{{item['alias']}}</a></h4>
+    {% if item['tags'] %}
+    {{item['tags'] | join: ','}}
+    {% endif %}
+  </div>
+  <div class="col-sm-4 col-md-4 col-lg-4">
+
+    {% for gists in item.gist %}
+    |&nbsp;&nbsp;<a href="https://gist.github.com/{{gists}}">{{gists | truncate: 10, '' }}</a>&nbsp;&nbsp;
+    {% endfor %}
+  </div>
+</div>
+</div>
+</div>
+{% endfor %}

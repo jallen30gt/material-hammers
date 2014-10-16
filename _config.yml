@@ -1,0 +1,13 @@
+# Site settings
+title: Literature Review of Materials Informatics Tools
+email: tony.fast@gmail.com
+description: >
+  Crowd-sourced contributions describing the existing Materials Informatics ecosystems
+  that have existed and are emerging.
+baseurl: "/material-hammers" # the subpath of your site, e.g. /blog/
+url: "http://materials-informatics-lab.github.io/" # the base hostname & protocol for your site
+twitter_username: docfast
+github_username:  tonyfast
+
+# Build settings
+markdown: kramdown

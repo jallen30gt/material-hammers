@@ -1,0 +1,88 @@
+data:
+
+- alias: Dream3d
+  url: >
+    http://www.bluequartz.net/
+  gist:
+  - 02f6ee2e621cb3ed43f9
+  tags:
+  - metals
+  - simulation
+  - experiment
+  - software
+  - spatial
+- alias: Citrination
+  url: >
+    http://www.citrination.com/
+  gist:
+  - #
+  tags:
+  - properties
+- alias: Harvard Clean Energy Project
+  url: >
+    http://cleanenergy.molecularspace.org/
+  gist:
+  - #
+  tags:
+  - electronic materials
+  - simulation
+  - experiment
+- alias: MatWeb
+  url: >
+    http://www.matweb.com/
+  gist:
+  - #
+  tags:
+  - properties
+- alias: AFLOW
+  url: >
+    http://materials.duke.edu/aflow.html
+  gist:
+  - #
+  tags:
+  - electronic materials
+- alias: CALPHAD
+  url: >
+    http://www.calphad.org
+  gist:
+  - #
+  tags:
+  - first principles
+  - ab initio
+  - electronic
+  - structural
+  - LAMMPS
+  - Molecular Dynamcis
+- alias: MATERIALS ATLAS
+  url: >
+    https://cosmicweb.mse.iastate.edu/wiki/display/home/Materials+Atlas+Home
+  gist:
+  - #
+- alias: MATERIALS COMMONS
+  url: >
+    http://prisms.engin.umich.edu/#/prisms/materialscommons
+  gist:
+  - #
+- alias: MATERIALS PROJECT
+  url: >
+    https://www.materialsproject.org
+  gist:
+  - #
+- alias: NIST DATABASES
+  url: >
+    http://srdata.nist.gov/gateway/gateway?dblist=0
+  gist:
+  - #
+- alias: NIST Potentials Repository
+  url: >
+    www.ctcms.nist.gov/potentials/
+  gist:
+  - #
+  tags:
+  - molecular dynamics
+  - electronic potentials
+- alias: THE OPEN QUANTUM MATERIALS DATABASE
+  url: >
+    http://oqmd.org
+  gist:
+  - #
