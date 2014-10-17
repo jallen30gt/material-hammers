@@ -31,7 +31,7 @@ data:
   url: >
     http://www.matweb.com/
   gist:
-  - #
+  - 4ae9a7822f49a15a9ddd
   tags:
   - properties
 - alias: AFLOW
@@ -57,7 +57,7 @@ data:
   url: >
     https://cosmicweb.mse.iastate.edu/wiki/display/home/Materials+Atlas+Home
   gist:
-  - #
+  - 66b818c8c8bc539a9332
 - alias: MATERIALS COMMONS
   url: >
     http://prisms.engin.umich.edu/#/prisms/materialscommons
@@ -67,12 +67,12 @@ data:
   url: >
     https://www.materialsproject.org
   gist:
-  - #
+  - 3e12df4295926d3e0a27
 - alias: NIST DATABASES
   url: >
     http://srdata.nist.gov/gateway/gateway?dblist=0
   gist:
-  - #
+  - b3abac6743a7682def83
 - alias: NIST Potentials Repository
   url: >
     www.ctcms.nist.gov/potentials/
@@ -84,5 +84,10 @@ data:
 - alias: THE OPEN QUANTUM MATERIALS DATABASE
   url: >
     http://oqmd.org
+  gist:
+  - b9e747e7424d643dd441
+- alias: CMD Network
+  url: >
+    http://www.asminternational.org/web/cmdnetwork
   gist:
   - #

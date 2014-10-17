@@ -9,6 +9,7 @@ author:
 
 ref:
 - https://gist.github.com
+- https://help.github.com/articles/github-flavored-markdown/
 ---
 {% assign services = site.data['services']['data'] %}
 
@@ -42,6 +43,11 @@ There is an example post that has been started for [DREAM.3D]({% post_url 2014-1
   * More than one person can report on a service once all of the slots have been selected.
   * Pick a tool relevent to your field.  Some of these tools are strictly for electronic
   or structural materials.
+  
+1. Make a Gist
+  * The Gist should contain one [Markdown]({{page.ref[1]}}) file; ``.markdown`` or ``.md`` is the extension.
+  * Be sure to use the ``#``,``##``,``###`` syntax to make an intuitive hierarchical list of information of the service.
+  
 1. In the disqus comment box, please tell me which tool you would like to choose
   and the hash for the gist you will be updating.
 
@@ -62,7 +68,7 @@ There is an example post that has been started for [DREAM.3D]({% post_url 2014-1
 
 
 
-<h2 id="#tools">Materials Science Services</h2>
+<h2 id="tools">Materials Science Services</h2>
 {% for item in services %}
 <div class="row">
 <div class="panel listitem panel-default" >
