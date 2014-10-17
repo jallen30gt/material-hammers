@@ -57,7 +57,7 @@ data:
   url: >
     https://cosmicweb.mse.iastate.edu/wiki/display/home/Materials+Atlas+Home
   gist:
-  - #
+  - 66b818c8c8bc539a9332
 - alias: MATERIALS COMMONS
   url: >
     http://prisms.engin.umich.edu/#/prisms/materialscommons
@@ -72,7 +72,7 @@ data:
   url: >
     http://srdata.nist.gov/gateway/gateway?dblist=0
   gist:
-  - #
+  - b3abac6743a7682def83
 - alias: NIST Potentials Repository
   url: >
     www.ctcms.nist.gov/potentials/
